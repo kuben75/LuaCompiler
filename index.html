@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SR Converter | Studio Edition</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/assets/main.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+<div class="app-wrap">
+
+    <aside class="sidebar">
+        <header class="brand">
+            <div class="brand-icon">
+                <i data-lucide="settings-2"></i>
+            </div>
+            <div class="brand-text">
+                <h1>SR Converter</h1>
+                <span>Studio Build v3.1</span>
+            </div>
+        </header>
+
+        <div class="sidebar-scroll">
+
+            <section class="control-section">
+                <label class="section-label">Pipeline Mode</label>
+
+                <div class="segmented-control">
+                    <label class="segment">
+                        <input type="radio" name="conversionMode" value="task" checked>
+                        <span class="segment-btn">Task</span>
+                    </label>
+                    <label class="segment">
+                        <input type="radio" name="conversionMode" value="zone">
+                        <span class="segment-btn">Zone</span>
+                    </label>
+                    <label class="segment">
+                        <input type="radio" name="conversionMode" value="contract">
+                        <span class="segment-btn">Contract</span>
+                    </label>
+                </div>
+
+                <div id="contractOptions" class="extra-options">
+                    <label class="checkbox-row">
+                        <input type="checkbox" id="wrapBrackets" checked>
+                        <span class="checkbox-ui"><i data-lucide="check"></i></span>
+                        <span class="checkbox-text">Wrap output in [ ] brackets</span>
+                    </label>
+                </div>
+            </section>
+
+            <section class="control-section action-section">
+                <button id="convertBtn" class="btn btn-primary">
+                    <i data-lucide="play" class="btn-icon"></i>
+                    <span>Compile JSON</span>
+                    <div class="spinner"></div>
+                </button>
+
+                <div class="btn-group">
+                    <button id="sampleBtn" class="btn btn-secondary">
+                        <i data-lucide="file-json"></i> Demo
+                    </button>
+                    <button id="clearBtn" class="btn btn-danger">
+                        <i data-lucide="trash-2"></i> Purge
+                    </button>
+                </div>
+
+                <div class="status-panel">
+                    <div class="status-dot"></div>
+                    <span id="status" class="status-text">System ready</span>
+                </div>
+            </section>
+
+            <section class="control-section stats-section">
+                <label class="section-label">Telemetry</label>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <span class="stat-val" id="statObjects">0</span>
+                        <span class="stat-name">Objects</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-val" id="statNulls">0</span>
+                        <span class="stat-name">Nulls</span>
+                    </div>
+                    <div class="stat-card stat-card-danger">
+                        <span class="stat-val" id="statErrors">0</span>
+                        <span class="stat-name">Faults</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-val" id="statLines">0</span>
+                        <span class="stat-name">Lines</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="control-section console-section">
+                <label class="section-label">Inspection Console</label>
+                <div class="console-box custom-scrollbar" id="logsArea">
+                    <div class="log-item log-muted">Waiting for execution...</div>
+                </div>
+            </section>
+        </div>
+    </aside>
+
+    <main class="workspace">
+
+        <section class="editor">
+            <header class="editor-header">
+                <div class="editor-title">
+                    <i data-lucide="file-input"></i>
+                    <h2>Source Code <span class="dim-text">(Havok .txt)</span></h2>
+                </div>
+            </header>
+
+            <div class="editor-body">
+                <textarea id="sourceCode" class="code-area custom-scrollbar" placeholder="// Paste your legacy variables here..."></textarea>
+            </div>
+        </section>
+
+        <section class="editor">
+            <header class="editor-header">
+                <div class="editor-title">
+                    <i data-lucide="braces"></i>
+                    <h2>Output <span class="dim-text">(Compiled JSON)</span></h2>
+                </div>
+                <button id="copyBtn" class="btn btn-small btn-secondary">
+                    <i data-lucide="copy"></i> Copy
+                </button>
+            </header>
+
+            <div class="editor-body output-bg">
+                <pre id="jsonOutput" class="code-area custom-scrollbar json-viewer"></pre>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<script>
+    lucide.createIcons();
+</script>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>

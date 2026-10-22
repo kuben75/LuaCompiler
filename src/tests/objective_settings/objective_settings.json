@@ -1,0 +1,1248 @@
+[
+    {
+        "ExternalData": [],
+        "SslType": "ObjectiveSettings",
+        "SslValue": {
+            "$type": "TaskSettings",
+            "FreezeTrailer": null,
+            "additionalTaskGivers": [
+                "RU_08_04_BRIDGE_RESTORE_02"
+            ],
+            "blockerMap": "",
+            "blockerObjectives": [],
+            "customMessage": "",
+            "description": "RU_08_04_BRIDGE_RESTORE_REW",
+            "forcedDaytime": null,
+            "isCoop": false,
+            "isForTutorial": false,
+            "isMarkersDisabled": false,
+            "isNeedRaceMusic": false,
+            "isRepeatable": false,
+            "isSilentReward": false,
+            "jingleSett": null,
+            "minimapList": 0,
+            "model": {
+                "$type": "ModelBuildingSettings",
+                "levelName": "~#@%$*level_ru_08_04~#@%$*",
+                "modelTag": "bribge_01",
+                "modelType": 0,
+                "unloadBlockedZoneId": null,
+                "stagesProgress": {
+                    "build_stage_0": 0,
+                    "build_stage_1": 1
+                }
+            },
+            "name": "RU_08_04_BRIDGE_RESTORE_02",
+            "recommendedTruck": 0,
+            "requiredRank": 0,
+            "rewards": {
+                "ObjectiveRewardExperience": {
+                    "$type": "ObjectiveRewardExperience",
+                    "amount": 350
+                },
+                "ObjectiveRewardMoney": {
+                    "$type": "ObjectiveRewardMoney",
+                    "amount": 2450
+                }
+            },
+            "stages": [
+                {
+                    "$type": "ObjectiveStage",
+                    "actions": {
+                        "$type": "ActionPackSettings",
+                        "zoneToFill": [
+                            {
+                                "$type": "CargoUnloadingZoneSettings",
+                                "additionalUnloadZones": [
+                                    "RU_08_04_BRIDGE_RESTORE_02"
+                                ],
+                                "cargo": {
+                                    "$type": "CargoPack",
+                                    "count": 2,
+                                    "name": "CargoMetalPlanks"
+                                },
+                                "globalZoneId": {
+                                    "$type": "ZoneGlobalIdentificator",
+                                    "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_BRIDGE_RESTORE_01"
+                                },
+                                "manualSettings": null,
+                                "model": null,
+                                "truckUid": "",
+                                "uiDesc": "RU_08_04_BRIDGE_RESTORE_S"
+                            }
+                        ]
+                    },
+                    "changeTruck": null,
+                    "farmingInfo": null,
+                    "isForceSearchCargoOnMap": false,
+                    "livingAreaInfo": null,
+                    "makeActionInZone": null,
+                    "needToStartTimer": false,
+                    "repairTruck": [],
+                    "spawnCargoOnStageActive": [],
+                    "truckDelivery": [],
+                    "uiDesc": "oldUIDescdeprecated",
+                    "visitAllZones": null
+                }
+            ],
+            "taskGiverZone": {
+                "$type": "ZoneGlobalIdentificator",
+                "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_BRIDGE_RESTORE_01"
+            },
+            "trucksWithoutForceGrounding": [],
+            "uiDesc": "RU_08_04_BRIDGE_RESTORE_DESC"
+        }
+    },
+    {
+        "ExternalData": [],
+        "SslType": "ObjectiveSettings",
+        "SslValue": {
+            "$type": "TaskSettings",
+            "FreezeTrailer": null,
+            "additionalTaskGivers": [
+                "RU_08_04_LOGS_01_b"
+            ],
+            "blockerMap": "",
+            "blockerObjectives": [],
+            "customMessage": "",
+            "description": "RU_08_04_LOGS_01_REW",
+            "forcedDaytime": null,
+            "isCoop": false,
+            "isForTutorial": false,
+            "isMarkersDisabled": false,
+            "isNeedRaceMusic": false,
+            "isRepeatable": false,
+            "isSilentReward": false,
+            "jingleSett": null,
+            "minimapList": 0,
+            "model": {
+                "$type": "ModelBuildingSettings",
+                "levelName": "~#@%$*level_ru_08_04~#@%$*",
+                "modelTag": "logs_01",
+                "modelType": 0,
+                "unloadBlockedZoneId": null,
+                "stagesProgress": {
+                    "build_stage_0": 0,
+                    "build_complete": 1
+                }
+            },
+            "name": "RU_08_04_LOGS_01_a",
+            "recommendedTruck": 6,
+            "requiredRank": 0,
+            "rewards": {
+                "ObjectiveRewardExperience": {
+                    "$type": "ObjectiveRewardExperience",
+                    "amount": 520
+                },
+                "ObjectiveRewardMoney": {
+                    "$type": "ObjectiveRewardMoney",
+                    "amount": 5300
+                }
+            },
+            "stages": [
+                {
+                    "$type": "ObjectiveStage",
+                    "actions": {
+                        "$type": "ActionPackSettings",
+                        "zoneToFill": [
+                            {
+                                "$type": "CargoUnloadingZoneSettings",
+                                "additionalUnloadZones": [
+                                    "RU_08_04_LOGS_01_b"
+                                ],
+                                "cargo": {
+                                    "$type": "CargoPack",
+                                    "count": 2,
+                                    "name": "CargoLogsMedium"
+                                },
+                                "globalZoneId": {
+                                    "$type": "ZoneGlobalIdentificator",
+                                    "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_LOGS_01_a"
+                                },
+                                "manualSettings": null,
+                                "model": null,
+                                "truckUid": "",
+                                "uiDesc": "RU_08_04_LOGS_01_S"
+                            }
+                        ]
+                    },
+                    "changeTruck": null,
+                    "farmingInfo": null,
+                    "isForceSearchCargoOnMap": false,
+                    "livingAreaInfo": null,
+                    "makeActionInZone": null,
+                    "needToStartTimer": false,
+                    "repairTruck": [],
+                    "spawnCargoOnStageActive": [],
+                    "truckDelivery": [],
+                    "uiDesc": "oldUIDescdeprecated",
+                    "visitAllZones": null
+                }
+            ],
+            "taskGiverZone": {
+                "$type": "ZoneGlobalIdentificator",
+                "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_LOGS_01_a"
+            },
+            "trucksWithoutForceGrounding": [],
+            "uiDesc": "RU_08_04_LOGS_01_DESC"
+        }
+    },
+    {
+        "ExternalData": [],
+        "SslType": "ObjectiveSettings",
+        "SslValue": {
+            "$type": "TaskSettings",
+            "FreezeTrailer": null,
+            "additionalTaskGivers": [
+                "RU_08_04_LOGS_02_b"
+            ],
+            "blockerMap": "",
+            "blockerObjectives": [],
+            "customMessage": "",
+            "description": "RU_08_04_LOGS_02_REW",
+            "forcedDaytime": null,
+            "isCoop": false,
+            "isForTutorial": false,
+            "isMarkersDisabled": false,
+            "isNeedRaceMusic": false,
+            "isRepeatable": false,
+            "isSilentReward": false,
+            "jingleSett": null,
+            "minimapList": 0,
+            "model": {
+                "$type": "ModelBuildingSettings",
+                "levelName": "~#@%$*level_ru_08_04~#@%$*",
+                "modelTag": "logs_02",
+                "modelType": 0,
+                "unloadBlockedZoneId": null,
+                "stagesProgress": {
+                    "build_stage_0": 0,
+                    "build_complete": 1
+                }
+            },
+            "name": "RU_08_04_LOGS_02_a",
+            "recommendedTruck": 6,
+            "requiredRank": 0,
+            "rewards": {
+                "ObjectiveRewardExperience": {
+                    "$type": "ObjectiveRewardExperience",
+                    "amount": 510
+                },
+                "ObjectiveRewardMoney": {
+                    "$type": "ObjectiveRewardMoney",
+                    "amount": 5150
+                }
+            },
+            "stages": [
+                {
+                    "$type": "ObjectiveStage",
+                    "actions": {
+                        "$type": "ActionPackSettings",
+                        "zoneToFill": [
+                            {
+                                "$type": "CargoUnloadingZoneSettings",
+                                "additionalUnloadZones": [
+                                    "RU_08_04_LOGS_02_b"
+                                ],
+                                "cargo": {
+                                    "$type": "CargoPack",
+                                    "count": 2,
+                                    "name": "CargoLogsMedium"
+                                },
+                                "globalZoneId": {
+                                    "$type": "ZoneGlobalIdentificator",
+                                    "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_LOGS_02_a"
+                                },
+                                "manualSettings": null,
+                                "model": null,
+                                "truckUid": "",
+                                "uiDesc": "RU_08_04_LOGS_02_S"
+                            }
+                        ]
+                    },
+                    "changeTruck": null,
+                    "farmingInfo": null,
+                    "isForceSearchCargoOnMap": false,
+                    "livingAreaInfo": null,
+                    "makeActionInZone": null,
+                    "needToStartTimer": false,
+                    "repairTruck": [],
+                    "spawnCargoOnStageActive": [],
+                    "truckDelivery": [],
+                    "uiDesc": "oldUIDescdeprecated",
+                    "visitAllZones": null
+                }
+            ],
+            "taskGiverZone": {
+                "$type": "ZoneGlobalIdentificator",
+                "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_LOGS_02_a"
+            },
+            "trucksWithoutForceGrounding": [],
+            "uiDesc": "RU_08_04_LOGS_02_DESC"
+        }
+    },
+    {
+        "ExternalData": [],
+        "SslType": "ObjectiveSettings",
+        "SslValue": {
+            "$type": "TaskSettings",
+            "FreezeTrailer": null,
+            "additionalTaskGivers": [],
+            "blockerMap": "",
+            "blockerObjectives": [
+                "RU_08_04_COMPLEX_RECOVERY_01"
+            ],
+            "customMessage": "",
+            "description": "RU_08_04_LAKE_REW",
+            "forcedDaytime": null,
+            "isCoop": false,
+            "isForTutorial": false,
+            "isMarkersDisabled": false,
+            "isNeedRaceMusic": false,
+            "isRepeatable": false,
+            "isSilentReward": false,
+            "jingleSett": null,
+            "minimapList": 0,
+            "model": null,
+            "name": "RU_08_04_LAKE",
+            "recommendedTruck": 3,
+            "requiredRank": 0,
+            "rewards": {
+                "ObjectiveRewardExperience": {
+                    "$type": "ObjectiveRewardExperience",
+                    "amount": 460
+                },
+                "ObjectiveRewardMoney": {
+                    "$type": "ObjectiveRewardMoney",
+                    "amount": 8000
+                }
+            },
+            "stages": [
+                {
+                    "$type": "ObjectiveStage",
+                    "actions": null,
+                    "changeTruck": null,
+                    "farmingInfo": null,
+                    "isForceSearchCargoOnMap": false,
+                    "livingAreaInfo": null,
+                    "makeActionInZone": null,
+                    "needToStartTimer": false,
+                    "repairTruck": [],
+                    "spawnCargoOnStageActive": [],
+                    "truckDelivery": [],
+                    "uiDesc": "oldUIDescdeprecated",
+                    "visitAllZones": {
+                        "$type": "VisitAllZonesSettings",
+                        "zones": [
+                            {
+                                "$type": "TaskSettingVisitZone",
+                                "globalZoneId": {
+                                    "$type": "ZoneGlobalIdentificator",
+                                    "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_LAKE_01"
+                                },
+                                "truckUid": "",
+                                "uiDesc": "RU_08_04_LAKE_01_S"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "$type": "ObjectiveStage",
+                    "actions": null,
+                    "changeTruck": null,
+                    "farmingInfo": null,
+                    "isForceSearchCargoOnMap": false,
+                    "livingAreaInfo": null,
+                    "makeActionInZone": null,
+                    "needToStartTimer": false,
+                    "repairTruck": [],
+                    "spawnCargoOnStageActive": [],
+                    "truckDelivery": [],
+                    "uiDesc": "oldUIDescdeprecated",
+                    "visitAllZones": {
+                        "$type": "VisitAllZonesSettings",
+                        "zones": [
+                            {
+                                "$type": "TaskSettingVisitZone",
+                                "globalZoneId": {
+                                    "$type": "ZoneGlobalIdentificator",
+                                    "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_LAKE_02"
+                                },
+                                "truckUid": "",
+                                "uiDesc": "RU_08_04_LAKE_02_S"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "$type": "ObjectiveStage",
+                    "actions": null,
+                    "changeTruck": null,
+                    "farmingInfo": null,
+                    "isForceSearchCargoOnMap": false,
+                    "livingAreaInfo": null,
+                    "makeActionInZone": null,
+                    "needToStartTimer": false,
+                    "repairTruck": [],
+                    "spawnCargoOnStageActive": [],
+                    "truckDelivery": [],
+                    "uiDesc": "oldUIDescdeprecated",
+                    "visitAllZones": {
+                        "$type": "VisitAllZonesSettings",
+                        "zones": [
+                            {
+                                "$type": "TaskSettingVisitZone",
+                                "globalZoneId": {
+                                    "$type": "ZoneGlobalIdentificator",
+                                    "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_LAKE_03"
+                                },
+                                "truckUid": "",
+                                "uiDesc": "RU_08_04_LAKE_03_S"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "taskGiverZone": {
+                "$type": "ZoneGlobalIdentificator",
+                "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_LAKE"
+            },
+            "trucksWithoutForceGrounding": [],
+            "uiDesc": "RU_08_04_LAKE_DESC"
+        }
+    },
+    {
+        "ExternalData": [],
+        "SslType": "ObjectiveSettings",
+        "SslValue": {
+            "$type": "TaskSettings",
+            "FreezeTrailer": null,
+            "additionalTaskGivers": [],
+            "blockerMap": "",
+            "blockerObjectives": [
+                "RU_08_04_AIRPORT_RECOVERY"
+            ],
+            "customMessage": "",
+            "description": "RU_08_04_LOST_CARGO_REW",
+            "forcedDaytime": null,
+            "isCoop": false,
+            "isForTutorial": false,
+            "isMarkersDisabled": false,
+            "isNeedRaceMusic": false,
+            "isRepeatable": false,
+            "isSilentReward": false,
+            "jingleSett": null,
+            "minimapList": 0,
+            "model": null,
+            "name": "RU_08_04_LOST_CARGO",
+            "recommendedTruck": 0,
+            "requiredRank": 0,
+            "rewards": {
+                "ObjectiveRewardExperience": {
+                    "$type": "ObjectiveRewardExperience",
+                    "amount": 500
+                },
+                "ObjectiveRewardMoney": {
+                    "$type": "ObjectiveRewardMoney",
+                    "amount": 6000
+                }
+            },
+            "stages": [
+                {
+                    "$type": "ObjectiveStage",
+                    "actions": {
+                        "$type": "ActionPackSettings",
+                        "zoneToFill": [
+                            {
+                                "$type": "CargoUnloadingZoneSettings",
+                                "additionalUnloadZones": [],
+                                "cargo": {
+                                    "$type": "CargoPack",
+                                    "count": 4,
+                                    "name": "CargoServiceSpareParts"
+                                },
+                                "globalZoneId": {
+                                    "$type": "ZoneGlobalIdentificator",
+                                    "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_AIRPORT"
+                                },
+                                "manualSettings": null,
+                                "model": null,
+                                "truckUid": "",
+                                "uiDesc": "RU_08_04_LOST_CARGO_S"
+                            }
+                        ]
+                    },
+                    "changeTruck": null,
+                    "farmingInfo": null,
+                    "isForceSearchCargoOnMap": false,
+                    "livingAreaInfo": null,
+                    "makeActionInZone": null,
+                    "needToStartTimer": false,
+                    "repairTruck": [],
+                    "spawnCargoOnStageActive": [
+                        {
+                            "$type": "SpawnPhysicalCargoSettings",
+                            "cargos": [
+                                {
+                                    "$type": "ObjectiveCargoSettings",
+                                    "count": 1,
+                                    "name": "CargoServiceSpareParts"
+                                }
+                            ],
+                            "ignoreHidingCargoWhenNotTracked": false,
+                            "needToBeDiscoveredByMetallodetector": false,
+                            "zone": {
+                                "$type": "ZoneGlobalIdentificator",
+                                "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_SPAWN_01"
+                            }
+                        },
+                        {
+                            "$type": "SpawnPhysicalCargoSettings",
+                            "cargos": [
+                                {
+                                    "$type": "ObjectiveCargoSettings",
+                                    "count": 1,
+                                    "name": "CargoServiceSpareParts"
+                                }
+                            ],
+                            "ignoreHidingCargoWhenNotTracked": false,
+                            "needToBeDiscoveredByMetallodetector": false,
+                            "zone": {
+                                "$type": "ZoneGlobalIdentificator",
+                                "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_SPAWN_02"
+                            }
+                        },
+                        {
+                            "$type": "SpawnPhysicalCargoSettings",
+                            "cargos": [
+                                {
+                                    "$type": "ObjectiveCargoSettings",
+                                    "count": 1,
+                                    "name": "CargoServiceSpareParts"
+                                }
+                            ],
+                            "ignoreHidingCargoWhenNotTracked": false,
+                            "needToBeDiscoveredByMetallodetector": false,
+                            "zone": {
+                                "$type": "ZoneGlobalIdentificator",
+                                "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_SPAWN_03"
+                            }
+                        },
+                        {
+                            "$type": "SpawnPhysicalCargoSettings",
+                            "cargos": [
+                                {
+                                    "$type": "ObjectiveCargoSettings",
+                                    "count": 1,
+                                    "name": "CargoServiceSpareParts"
+                                }
+                            ],
+                            "ignoreHidingCargoWhenNotTracked": false,
+                            "needToBeDiscoveredByMetallodetector": false,
+                            "zone": {
+                                "$type": "ZoneGlobalIdentificator",
+                                "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_SPAWN_04"
+                            }
+                        }
+                    ],
+                    "truckDelivery": [],
+                    "uiDesc": "oldUIDescdeprecated",
+                    "visitAllZones": null
+                }
+            ],
+            "taskGiverZone": {
+                "$type": "ZoneGlobalIdentificator",
+                "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_LOST_CARGO"
+            },
+            "trucksWithoutForceGrounding": [],
+            "uiDesc": "RU_08_04_LOST_CARGO_DESC"
+        }
+    },
+    {
+        "ExternalData": [],
+        "SslType": "ObjectiveSettings",
+        "SslValue": {
+            "$type": "TaskSettings",
+            "FreezeTrailer": null,
+            "additionalTaskGivers": [],
+            "blockerMap": "",
+            "blockerObjectives": [
+                "RU_08_04_AIRPORT_RECOVERY"
+            ],
+            "customMessage": "",
+            "description": "RU_08_04_FISHING_REW",
+            "forcedDaytime": null,
+            "isCoop": false,
+            "isForTutorial": false,
+            "isMarkersDisabled": false,
+            "isNeedRaceMusic": false,
+            "isRepeatable": false,
+            "isSilentReward": false,
+            "jingleSett": null,
+            "minimapList": 0,
+            "model": null,
+            "name": "RU_08_04_FISHING",
+            "recommendedTruck": 0,
+            "requiredRank": 0,
+            "rewards": {
+                "ObjectiveRewardExperience": {
+                    "$type": "ObjectiveRewardExperience",
+                    "amount": 530
+                },
+                "ObjectiveRewardMoney": {
+                    "$type": "ObjectiveRewardMoney",
+                    "amount": 6250
+                }
+            },
+            "stages": [
+                {
+                    "$type": "ObjectiveStage",
+                    "actions": null,
+                    "changeTruck": null,
+                    "farmingInfo": null,
+                    "isForceSearchCargoOnMap": false,
+                    "livingAreaInfo": null,
+                    "makeActionInZone": null,
+                    "needToStartTimer": false,
+                    "repairTruck": [],
+                    "spawnCargoOnStageActive": [],
+                    "truckDelivery": [
+                        {
+                            "$type": "TruckDeliverySettings",
+                            "additionalDeliveryZones": [],
+                            "afterStageFinished": 3,
+                            "globalZoneDeliveryId": {
+                                "$type": "ZoneGlobalIdentificator",
+                                "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_FISHING_DELIVERY"
+                            },
+                            "isListeningTruckOnly": false,
+                            "mustDestroyAfterSubstage": false,
+                            "truckId": "fishing_01",
+                            "truckUiName": "",
+                            "uiDesc": "RU_08_04_FISHING_S"
+                        }
+                    ],
+                    "uiDesc": "oldUIDescdeprecated",
+                    "visitAllZones": null
+                }
+            ],
+            "taskGiverZone": {
+                "$type": "ZoneGlobalIdentificator",
+                "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_FISHING"
+            },
+            "trucksWithoutForceGrounding": [],
+            "uiDesc": "RU_08_04_FISHING_DESC"
+        }
+    },
+    {
+        "ExternalData": [],
+        "SslType": "ObjectiveSettings",
+        "SslValue": {
+            "$type": "TaskSettings",
+            "FreezeTrailer": null,
+            "additionalTaskGivers": [],
+            "blockerMap": "",
+            "blockerObjectives": [
+                "RU_08_04_COMPLEX_RECOVERY_03"
+            ],
+            "customMessage": "",
+            "description": "RU_08_04_SPECIAL_DELIVERY_01_REW",
+            "forcedDaytime": null,
+            "isCoop": false,
+            "isForTutorial": false,
+            "isMarkersDisabled": false,
+            "isNeedRaceMusic": false,
+            "isRepeatable": false,
+            "isSilentReward": false,
+            "jingleSett": null,
+            "minimapList": 0,
+            "model": null,
+            "name": "RU_08_04_SPECIAL_DELIVERY_01",
+            "recommendedTruck": 0,
+            "requiredRank": 0,
+            "rewards": {
+                "ObjectiveRewardExperience": {
+                    "$type": "ObjectiveRewardExperience",
+                    "amount": 420
+                },
+                "ObjectiveRewardMoney": {
+                    "$type": "ObjectiveRewardMoney",
+                    "amount": 4250
+                }
+            },
+            "stages": [
+                {
+                    "$type": "ObjectiveStage",
+                    "actions": null,
+                    "changeTruck": null,
+                    "farmingInfo": null,
+                    "isForceSearchCargoOnMap": false,
+                    "livingAreaInfo": null,
+                    "makeActionInZone": null,
+                    "needToStartTimer": false,
+                    "repairTruck": [],
+                    "spawnCargoOnStageActive": [],
+                    "truckDelivery": [
+                        {
+                            "$type": "TruckDeliverySettings",
+                            "additionalDeliveryZones": [],
+                            "afterStageFinished": 3,
+                            "globalZoneDeliveryId": {
+                                "$type": "ZoneGlobalIdentificator",
+                                "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_SPECIAL_DELIVERY_FINISH"
+                            },
+                            "isListeningTruckOnly": false,
+                            "mustDestroyAfterSubstage": false,
+                            "truckId": "SPECIAL_01",
+                            "truckUiName": "",
+                            "uiDesc": "RU_08_04_SPECIAL_DELIVERY_01_S"
+                        }
+                    ],
+                    "uiDesc": "oldUIDescdeprecated",
+                    "visitAllZones": null
+                }
+            ],
+            "taskGiverZone": {
+                "$type": "ZoneGlobalIdentificator",
+                "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_SPECIAL_DELIVERY_01"
+            },
+            "trucksWithoutForceGrounding": [],
+            "uiDesc": "RU_08_04_SPECIAL_DELIVERY_01_DESC"
+        }
+    },
+    {
+        "ExternalData": [],
+        "SslType": "ObjectiveSettings",
+        "SslValue": {
+            "$type": "TaskSettings",
+            "FreezeTrailer": null,
+            "additionalTaskGivers": [],
+            "blockerMap": "",
+            "blockerObjectives": [
+                "RU_08_04_AIRPORT_RECOVERY"
+            ],
+            "customMessage": "",
+            "description": "RU_08_04_IMPORTANT_CARGO_REW",
+            "forcedDaytime": null,
+            "isCoop": false,
+            "isForTutorial": false,
+            "isMarkersDisabled": false,
+            "isNeedRaceMusic": false,
+            "isRepeatable": false,
+            "isSilentReward": false,
+            "jingleSett": null,
+            "minimapList": 0,
+            "model": null,
+            "name": "RU_08_04_IMPORTANT_CARGO",
+            "recommendedTruck": 0,
+            "requiredRank": 0,
+            "rewards": {
+                "ObjectiveRewardExperience": {
+                    "$type": "ObjectiveRewardExperience",
+                    "amount": 430
+                },
+                "ObjectiveRewardMoney": {
+                    "$type": "ObjectiveRewardMoney",
+                    "amount": 3300
+                }
+            },
+            "stages": [
+                {
+                    "$type": "ObjectiveStage",
+                    "actions": {
+                        "$type": "ActionPackSettings",
+                        "zoneToFill": [
+                            {
+                                "$type": "CargoUnloadingZoneSettings",
+                                "additionalUnloadZones": [],
+                                "cargo": {
+                                    "$type": "CargoPack",
+                                    "count": 2,
+                                    "name": "CargoContainerSmall"
+                                },
+                                "globalZoneId": {
+                                    "$type": "ZoneGlobalIdentificator",
+                                    "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_IMPORTANT_CARGO_FINISH"
+                                },
+                                "manualSettings": null,
+                                "model": null,
+                                "truckUid": "",
+                                "uiDesc": "RU_08_04_IMPORTANT_CARGO_S"
+                            }
+                        ]
+                    },
+                    "changeTruck": null,
+                    "farmingInfo": null,
+                    "isForceSearchCargoOnMap": false,
+                    "livingAreaInfo": null,
+                    "makeActionInZone": null,
+                    "needToStartTimer": false,
+                    "repairTruck": [],
+                    "spawnCargoOnStageActive": [
+                        {
+                            "$type": "SpawnPhysicalCargoSettings",
+                            "cargos": [
+                                {
+                                    "$type": "ObjectiveCargoSettings",
+                                    "count": 1,
+                                    "name": "CargoContainerSmall"
+                                }
+                            ],
+                            "ignoreHidingCargoWhenNotTracked": false,
+                            "needToBeDiscoveredByMetallodetector": false,
+                            "zone": {
+                                "$type": "ZoneGlobalIdentificator",
+                                "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_SPAWN_02_A"
+                            }
+                        },
+                        {
+                            "$type": "SpawnPhysicalCargoSettings",
+                            "cargos": [
+                                {
+                                    "$type": "ObjectiveCargoSettings",
+                                    "count": 1,
+                                    "name": "CargoContainerSmall"
+                                }
+                            ],
+                            "ignoreHidingCargoWhenNotTracked": false,
+                            "needToBeDiscoveredByMetallodetector": false,
+                            "zone": {
+                                "$type": "ZoneGlobalIdentificator",
+                                "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_SPAWN_02_B"
+                            }
+                        }
+                    ],
+                    "truckDelivery": [],
+                    "uiDesc": "oldUIDescdeprecated",
+                    "visitAllZones": null
+                }
+            ],
+            "taskGiverZone": {
+                "$type": "ZoneGlobalIdentificator",
+                "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_IMPORTANT_CARGO"
+            },
+            "trucksWithoutForceGrounding": [],
+            "uiDesc": "RU_08_04_IMPORTANT_CARGO_DESC"
+        }
+    },
+    {
+        "ExternalData": [],
+        "SslType": "ObjectiveSettings",
+        "SslValue": {
+            "$type": "TaskSettings",
+            "FreezeTrailer": null,
+            "additionalTaskGivers": [],
+            "blockerMap": "",
+            "blockerObjectives": [
+                "RU_08_04_COMPLEX_RECOVERY_01",
+                "RU_08_04_COMPLEX_RECOVERY_02_CONTR",
+                "RU_08_04_COMPLEX_RECOVERY_03"
+            ],
+            "customMessage": "",
+            "description": "RU_08_04_FIELD_PROCESSING_01_REW",
+            "forcedDaytime": null,
+            "isCoop": false,
+            "isForTutorial": false,
+            "isMarkersDisabled": false,
+            "isNeedRaceMusic": false,
+            "isRepeatable": true,
+            "isSilentReward": false,
+            "jingleSett": null,
+            "minimapList": 0,
+            "model": null,
+            "name": "RU_08_04_FIELD_PROCESSING_01",
+            "recommendedTruck": 7,
+            "requiredRank": 0,
+            "rewards": {
+                "ObjectiveRewardAddItemsToZone": {
+                    "$type": "ObjectiveRewardAddItemsToZone",
+                    "cargosSettings": [
+                        {
+                            "$type": "CargoLoadingSettings",
+                            "count": -1,
+                            "name": "CargoPotato"
+                        }
+                    ],
+                    "mapId": "~#@%$*level_ru_08_04~#@%$*",
+                    "zoneId": "RU_08_04_CRAFT_01"
+                },
+                "ObjectiveRewardExperience": {
+                    "$type": "ObjectiveRewardExperience",
+                    "amount": 400
+                },
+                "ObjectiveRewardMoney": {
+                    "$type": "ObjectiveRewardMoney",
+                    "amount": 50
+                }
+            },
+            "stages": [
+                {
+                    "$type": "ObjectiveStage",
+                    "actions": null,
+                    "changeTruck": null,
+                    "farmingInfo": {
+                        "$type": "FarmingActionSettings",
+                        "farmingZone": {
+                            "$type": "ZoneGlobalIdentificator",
+                            "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_FIELD_PROCESSING_01"
+                        },
+                        "hideStageFromUi": false,
+                        "model": null,
+                        "neededState": 1,
+                        "requiredTrailer": 1,
+                        "tolerance": 0.1,
+                        "uiDesc": "RU_08_04_FIELD_PROCESSING_01_S_01"
+                    },
+                    "isForceSearchCargoOnMap": false,
+                    "livingAreaInfo": null,
+                    "makeActionInZone": null,
+                    "needToStartTimer": false,
+                    "repairTruck": [],
+                    "spawnCargoOnStageActive": [],
+                    "truckDelivery": [],
+                    "uiDesc": "oldUIDescdeprecated",
+                    "visitAllZones": null
+                },
+                {
+                    "$type": "ObjectiveStage",
+                    "actions": null,
+                    "changeTruck": null,
+                    "farmingInfo": {
+                        "$type": "FarmingActionSettings",
+                        "farmingZone": {
+                            "$type": "ZoneGlobalIdentificator",
+                            "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_FIELD_PROCESSING_01"
+                        },
+                        "hideStageFromUi": false,
+                        "model": null,
+                        "neededState": 2,
+                        "requiredTrailer": 2,
+                        "tolerance": 0.1,
+                        "uiDesc": "RU_08_04_FIELD_PROCESSING_01_S_02"
+                    },
+                    "isForceSearchCargoOnMap": false,
+                    "livingAreaInfo": null,
+                    "makeActionInZone": null,
+                    "needToStartTimer": false,
+                    "repairTruck": [],
+                    "spawnCargoOnStageActive": [],
+                    "truckDelivery": [],
+                    "uiDesc": "oldUIDescdeprecated",
+                    "visitAllZones": null
+                },
+                {
+                    "$type": "ObjectiveStage",
+                    "actions": null,
+                    "changeTruck": null,
+                    "farmingInfo": {
+                        "$type": "FarmingActionSettings",
+                        "farmingZone": {
+                            "$type": "ZoneGlobalIdentificator",
+                            "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_FIELD_PROCESSING_01"
+                        },
+                        "hideStageFromUi": true,
+                        "model": null,
+                        "neededState": 3,
+                        "requiredTrailer": 2,
+                        "tolerance": 1,
+                        "uiDesc": "RU_08_04_FIELD_PROCESSING_01_S_03"
+                    },
+                    "isForceSearchCargoOnMap": false,
+                    "livingAreaInfo": null,
+                    "makeActionInZone": null,
+                    "needToStartTimer": false,
+                    "repairTruck": [],
+                    "spawnCargoOnStageActive": [],
+                    "truckDelivery": [],
+                    "uiDesc": "oldUIDescdeprecated",
+                    "visitAllZones": null
+                },
+                {
+                    "$type": "ObjectiveStage",
+                    "actions": null,
+                    "changeTruck": null,
+                    "farmingInfo": {
+                        "$type": "FarmingActionSettings",
+                        "farmingZone": {
+                            "$type": "ZoneGlobalIdentificator",
+                            "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_FIELD_PROCESSING_01"
+                        },
+                        "hideStageFromUi": false,
+                        "model": {
+                            "$type": "ModelBuildingSettings",
+                            "levelName": "~#@%$*level_ru_08_04~#@%$*",
+                            "modelTag": "FIELD_ANIMA",
+                            "modelType": 0,
+                            "unloadBlockedZoneId": null,
+                            "stagesProgress": {
+                                "build_stage_0": 0,
+                                "build_stage_1": 1
+                            }
+                        },
+                        "neededState": 4,
+                        "requiredTrailer": 3,
+                        "tolerance": 0.1,
+                        "uiDesc": "RU_08_04_FIELD_PROCESSING_01_S_04"
+                    },
+                    "isForceSearchCargoOnMap": false,
+                    "livingAreaInfo": null,
+                    "makeActionInZone": null,
+                    "needToStartTimer": false,
+                    "repairTruck": [],
+                    "spawnCargoOnStageActive": [],
+                    "truckDelivery": [],
+                    "uiDesc": "oldUIDescdeprecated",
+                    "visitAllZones": null
+                },
+                {
+                    "$type": "ObjectiveStage",
+                    "actions": null,
+                    "changeTruck": null,
+                    "farmingInfo": {
+                        "$type": "FarmingActionSettings",
+                        "farmingZone": {
+                            "$type": "ZoneGlobalIdentificator",
+                            "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_FIELD_PROCESSING_01"
+                        },
+                        "hideStageFromUi": true,
+                        "model": null,
+                        "neededState": 5,
+                        "requiredTrailer": 3,
+                        "tolerance": 1,
+                        "uiDesc": "RU_08_04_FIELD_PROCESSING_01_S_05"
+                    },
+                    "isForceSearchCargoOnMap": false,
+                    "livingAreaInfo": null,
+                    "makeActionInZone": null,
+                    "needToStartTimer": false,
+                    "repairTruck": [],
+                    "spawnCargoOnStageActive": [],
+                    "truckDelivery": [],
+                    "uiDesc": "oldUIDescdeprecated",
+                    "visitAllZones": null
+                }
+            ],
+            "taskGiverZone": {
+                "$type": "ZoneGlobalIdentificator",
+                "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_FIELD_PROCESSING_01_START"
+            },
+            "trucksWithoutForceGrounding": [],
+            "uiDesc": "RU_08_04_FIELD_PROCESSING_01_DESC"
+        }
+    },
+    {
+        "ExternalData": [],
+        "SslType": "ObjectiveSettings",
+        "SslValue": {
+            "$type": "TaskSettings",
+            "FreezeTrailer": null,
+            "additionalTaskGivers": [
+                "RU_08_04_POTATO_BUYING_01"
+            ],
+            "blockerMap": "",
+            "blockerObjectives": [
+                "RU_08_04_COMPLEX_RECOVERY_02_CONTR"
+            ],
+            "customMessage": "",
+            "description": "RU_08_04_POTATO_BUYING_REW",
+            "forcedDaytime": null,
+            "isCoop": false,
+            "isForTutorial": false,
+            "isMarkersDisabled": false,
+            "isNeedRaceMusic": false,
+            "isRepeatable": true,
+            "isSilentReward": false,
+            "jingleSett": null,
+            "minimapList": 0,
+            "model": null,
+            "name": "RU_08_04_POTATO_BUYING",
+            "recommendedTruck": 0,
+            "requiredRank": 0,
+            "rewards": {
+                "ObjectiveRewardExperience": {
+                    "$type": "ObjectiveRewardExperience",
+                    "amount": 50
+                },
+                "ObjectiveRewardMoney": {
+                    "$type": "ObjectiveRewardMoney",
+                    "amount": 3600
+                }
+            },
+            "stages": [
+                {
+                    "$type": "ObjectiveStage",
+                    "actions": {
+                        "$type": "ActionPackSettings",
+                        "zoneToFill": [
+                            {
+                                "$type": "CargoUnloadingZoneSettings",
+                                "additionalUnloadZones": [],
+                                "cargo": {
+                                    "$type": "CargoPack",
+                                    "count": 2,
+                                    "name": "CargoPotato"
+                                },
+                                "globalZoneId": {
+                                    "$type": "ZoneGlobalIdentificator",
+                                    "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_AIRPORT"
+                                },
+                                "manualSettings": null,
+                                "model": null,
+                                "truckUid": "",
+                                "uiDesc": "RU_08_04_POTATO_BUYING_S_01"
+                            }
+                        ]
+                    },
+                    "changeTruck": null,
+                    "farmingInfo": null,
+                    "isForceSearchCargoOnMap": false,
+                    "livingAreaInfo": null,
+                    "makeActionInZone": null,
+                    "needToStartTimer": false,
+                    "repairTruck": [],
+                    "spawnCargoOnStageActive": [],
+                    "truckDelivery": [],
+                    "uiDesc": "oldUIDescdeprecated",
+                    "visitAllZones": null
+                }
+            ],
+            "taskGiverZone": {
+                "$type": "ZoneGlobalIdentificator",
+                "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_POTATO_BUYING"
+            },
+            "trucksWithoutForceGrounding": [],
+            "uiDesc": "RU_08_04_POTATO_BUYING_DESC"
+        }
+    },
+    {
+        "ExternalData": [],
+        "SslType": "ObjectiveSettings",
+        "SslValue": {
+            "$type": "TaskSettings",
+            "FreezeTrailer": null,
+            "additionalTaskGivers": [],
+            "blockerMap": "",
+            "blockerObjectives": [
+                "RU_08_04_COMPLEX_RECOVERY_01"
+            ],
+            "customMessage": "",
+            "description": "RU_08_04_HAY_DELIVERY_REW",
+            "forcedDaytime": null,
+            "isCoop": false,
+            "isForTutorial": false,
+            "isMarkersDisabled": false,
+            "isNeedRaceMusic": false,
+            "isRepeatable": false,
+            "isSilentReward": false,
+            "jingleSett": null,
+            "minimapList": 0,
+            "model": null,
+            "name": "RU_08_04_HAY_DELIVERY",
+            "recommendedTruck": 8,
+            "requiredRank": 0,
+            "rewards": {
+                "ObjectiveRewardExperience": {
+                    "$type": "ObjectiveRewardExperience",
+                    "amount": 400
+                },
+                "ObjectiveRewardMoney": {
+                    "$type": "ObjectiveRewardMoney",
+                    "amount": 4650
+                }
+            },
+            "stages": [
+                {
+                    "$type": "ObjectiveStage",
+                    "actions": {
+                        "$type": "ActionPackSettings",
+                        "zoneToFill": [
+                            {
+                                "$type": "CargoUnloadingZoneSettings",
+                                "additionalUnloadZones": [],
+                                "cargo": {
+                                    "$type": "CargoPack",
+                                    "count": 3,
+                                    "name": "CargoStack"
+                                },
+                                "globalZoneId": {
+                                    "$type": "ZoneGlobalIdentificator",
+                                    "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_HAY_DELIVERY_GIVER"
+                                },
+                                "manualSettings": null,
+                                "model": null,
+                                "truckUid": "",
+                                "uiDesc": "RU_08_04_COMPLEX_RECOVERY_01_S"
+                            }
+                        ]
+                    },
+                    "changeTruck": null,
+                    "farmingInfo": null,
+                    "isForceSearchCargoOnMap": false,
+                    "livingAreaInfo": null,
+                    "makeActionInZone": null,
+                    "needToStartTimer": false,
+                    "repairTruck": [],
+                    "spawnCargoOnStageActive": [
+                        {
+                            "$type": "SpawnPhysicalCargoSettings",
+                            "cargos": [
+                                {
+                                    "$type": "ObjectiveCargoSettings",
+                                    "count": 1,
+                                    "name": "CargoStack"
+                                }
+                            ],
+                            "ignoreHidingCargoWhenNotTracked": false,
+                            "needToBeDiscoveredByMetallodetector": false,
+                            "zone": {
+                                "$type": "ZoneGlobalIdentificator",
+                                "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_HAY_SPAWN_01"
+                            }
+                        },
+                        {
+                            "$type": "SpawnPhysicalCargoSettings",
+                            "cargos": [
+                                {
+                                    "$type": "ObjectiveCargoSettings",
+                                    "count": 1,
+                                    "name": "CargoStack"
+                                }
+                            ],
+                            "ignoreHidingCargoWhenNotTracked": false,
+                            "needToBeDiscoveredByMetallodetector": false,
+                            "zone": {
+                                "$type": "ZoneGlobalIdentificator",
+                                "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_HAY_SPAWN_02"
+                            }
+                        },
+                        {
+                            "$type": "SpawnPhysicalCargoSettings",
+                            "cargos": [
+                                {
+                                    "$type": "ObjectiveCargoSettings",
+                                    "count": 1,
+                                    "name": "CargoStack"
+                                }
+                            ],
+                            "ignoreHidingCargoWhenNotTracked": false,
+                            "needToBeDiscoveredByMetallodetector": false,
+                            "zone": {
+                                "$type": "ZoneGlobalIdentificator",
+                                "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_HAY_SPAWN_03"
+                            }
+                        }
+                    ],
+                    "truckDelivery": [],
+                    "uiDesc": "oldUIDescdeprecated",
+                    "visitAllZones": null
+                }
+            ],
+            "taskGiverZone": {
+                "$type": "ZoneGlobalIdentificator",
+                "globalZoneId": "~#@%$*level_ru_08_04~#@%$* || RU_08_04_HAY_DELIVERY_GIVER"
+            },
+            "trucksWithoutForceGrounding": [],
+            "uiDesc": "RU_08_04_HAY_DELIVERY_DESC"
+        }
+    }
+]
